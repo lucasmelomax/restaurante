@@ -54,9 +54,8 @@
 }
 
 .bg-img {
-  background-image: url("/img/Rectangle121.png");
+  background-image: url("../img/Rectangle121.png");
   background-position: center center;
-  object-fit: cover;
   max-width: 500px;
   height: 249px;
   border-radius: 10px;
@@ -82,7 +81,7 @@
   color: #fff;
   position: absolute;
   top: 30px;
-  right: 0px;
+  right: 20px;
   border-radius: 9px;
   cursor: pointer;
 }
