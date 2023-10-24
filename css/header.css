@@ -1,0 +1,39 @@
+header {
+  background-color: #f6b100;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+}
+
+.logo-header {
+  font-family: Urbanist, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.logo-header .finder {
+  font-family: Urbanist;
+  font-weight: 500;
+}
+
+.icones-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.icones-nav img {
+  max-width: 28px;
+  max-height: 28px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icones-nav img:hover {
+  background-color: #eeab00;
+  border-radius: 4px;
+}
+

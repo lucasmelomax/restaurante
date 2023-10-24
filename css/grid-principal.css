@@ -1,0 +1,105 @@
+.grid-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.cardapio-p {
+  font-weight: 500;
+  color: #f6b100;
+  font-size: 1.25rem;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+
+.grid-principal-1 {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  background-color: #fff;
+  margin-bottom: 25px;
+  padding: 6px;
+  border-radius: 10px;
+  gap: 20px;
+  align-items: center;
+}
+
+.nome-menu {
+  margin-left: 20px;
+}
+
+.nome-menu p {
+  font-weight: 500;
+  color: #f6b100;
+  font-size: 1.125rem;
+}
+
+.nome-menu h2 {
+  font-size: 1.5rem;
+}
+
+.nome-menu h2:hover {
+  color: #473e2a;
+  cursor: pointer;
+}
+
+.grid-principal-1 .teste1 {
+  padding: 5px 10px;
+  border-radius: 10px;
+  max-width: 40px;
+}
+
+.cardapio-imagens div:first-child img {
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.bg-img {
+  background-image: url("/img/Rectangle121.png");
+  background-position: center center;
+  object-fit: cover;
+  max-width: 500px;
+  height: 249px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  opacity: 0.98;
+  position: relative;
+}
+
+.bg-img img {
+  margin-left: 40px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.bg-img::after {
+  content: "Start cook";
+  display: inline-block;
+  background-color: #f6b100;
+  padding: 7px 15px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.bg-img h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.bg-img p {
+  color: #fff;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  max-width: 25ch;
+}
